@@ -12,8 +12,8 @@ def connectionBD():
             host= "usuariogis.mysql.pythonanywhere-services.com",
             user = "usuariogis",
             # user="root",
-            passwd="aleinikov29",
-            database="crud_python",
+            password="aleinikov29",
+            database="usuariogis$crud_python",
             charset='utf8mb4',
             collation='utf8mb4_unicode_ci',
             raise_on_warnings=True
