@@ -8,8 +8,10 @@ def connectionBD():
     try:
         # connection = mysql.connector.connect(
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
+            # host="localhost",
+            host= "usuariogis.mysql.pythonanywhere-services.com",
+            user = "usuariogis",
+            # user="root",
             passwd="aleinikov29",
             database="crud_python",
             charset='utf8mb4',
